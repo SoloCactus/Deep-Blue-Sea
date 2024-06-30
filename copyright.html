@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Deep Blue</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+                rel="stylesheet">
+        <style>
+                body{
+                        color: white;
+                }
+        </style>
+</head>
+
+<body>
+
+        <div id="cursor"></div>
+
+        <center>
+                <nav>
+                        <div class="nav_logo">
+                                <img src="logo.png" alt="Deep-Blue Logo">
+                        </div>
+                        <div class="nav_links">
+                                <a target="_blank" href="index.html" style="color: white; text-decoration: none;">
+                                        <p>Home 🏠</p>
+                                </a>
+                                <a target="_blank" href="action.html" style="color: white; text-decoration: none;">
+                                        <p>To Do 🗒️</p>
+                                        <a tar href="https://deep-blue-sea.printify.me/"
+                                                style="color: white; text-decoration: none;">
+                                                <p>Our Shop 🛍️</p>
+                                        </a>
+                                        <a tar href="game.html" style="color: white; text-decoration: none;">
+                                                <p>Games 🎮</p>
+                                        </a>
+                                        <a tar href="contact.html"><button class="contact-me-button"
+                                                        style="color: white; text-decoration: none;">Contact Me
+                                                        🤙🏻</button></a>
+                        </div>
+                </nav>
+        </center>
+        <br><br><br><br>
+
+        <p>All The Images Are Made / Customized by Me, Yes I used multiple images, but I customized them</p>
+        <p>All The Code Here Is Coded By Me</p>
+        <p>I Used Ai Like Bing Ai, ChatGPT, Bard And Other Ai For The Coding Assistance And Image Generation</p>
+        <p>I Don't Own Any Of The PDFs Listed</p>
+
+                        <div id="loader-overlay">
+                                <div class="loader"></div>
+                                <div id="loader-text">Loading...
+                                        <br>
+                                        <p style="color: rgb(255, 92, 92);font-size: 10px;">This Website Might Take Time To Load As It has a lot of High Quality Components</p>
+                                </div>
+                        </div>
+
+                        <script>
+                                // JavaScript for loader functionality
+                                document.onreadystatechange = function () {
+                                        if (document.readyState !== "complete") {
+                                                document.getElementById("loader-overlay").style.display = "block";
+                                        } else {
+                                                document.getElementById("loader-overlay").style.display = "none";
+                                        }
+                                };
+
+
+
+                                const cursor = document.querySelector("#cursor");
+
+                                document.addEventListener("mousemove", (e) => {
+                                        cursor.style.left = e.clientX + "px";
+                                        cursor.style.top = e.clientY + "px";
+                                });
+
+                        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Deep Blue</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+        <div id="cursor"></div>
+        <center>
+                <nav>
+                        <div class="nav_logo">
+                                <img src="logo.png" alt="Deep-Blue Logo">
+                        </div>
+                        <div class="nav_links">
+                                <a target="_blank" href="index.html" style="color: white; text-decoration: none;">
+                                        <p>Home 🏠</p>
+                                </a>
+                                <a target="_blank" href="action.html" style="color: white; text-decoration: none;">
+                                        <p>To Do 🗒️</p>
+                                        <a tar href="https://deep-blue-sea.printify.me/"
+                                                style="color: white; text-decoration: none;">
+                                                <p>Our Shop 🛍️</p>
+                                        </a>
+                                        <a tar href="game.html" style="color: white; text-decoration: none;">
+                                                <p>Games 🎮</p>
+                                        </a>
+                                        <a tar href="contact.html"><button class="contact-me-button"
+                                                        style="color: white; text-decoration: none;">Contact Me
+                                                        🤙🏻</button></a>
+                        </div>
+                </nav>
+        </center>
+        <br><br><br>
+        
+                <center>
+                        <h1 style="background-color:rgb(255, 89, 0);color:black;font-size: 40px;width: auto;">THE THINGS TO DO
+                        </h1>
+        
+                </center>
+                <br>
+                <div class="target-card-wrap">
+                        <div class="target-card-wrap-c">
+                                <div class="targets target-1">
+                                        <div>
+                                                <p>1. Find a Goal 14 charity you want to support. Any donation, big or small,
+                                                        can make a difference!</p>
+                                                        
+                                                        <br>
+        <a href="https://www.neptunespirates.org/" style="color: #ff7300;" target="_blank">Nepture Priates →</a>
+                                        </div>
+                                </div>
+                                <div class="targets target-2">
+                                        <div>
+                                                <p>2. Never buy bottled water – boil, filter, chlorine, rainwater, do what you
+                                                        can.
+                                                </p>
+                                                <br>
+        <a href="https://www.cdc.gov/healthywater/emergency/making-water-safe.html" style="color: #ff7300;" target="_blank">cdv.gov →</a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="target-card-wrap-c">
+                                <div class="targets target-1">
+                                        <div>
+                                                <p>3. Organize a cleanup project for rivers and oceans. Engage your whole
+                                                        community to clean up a local river, seaside or an ocean.
+                                                </p>
+                                                <br>
+        <a href="https://theoceancleanup.com/" style="color: #ff7300;" target="_blank">The Ocean Cleanup →</a>
+                                        </div>
+                                </div>
+                                <div class="targets target-2">
+                                        <div>
+                                                <p>4. Buy local and certified fish. You can support small-scale producers by
+                                                        shopping in local markets and shops.
+                                                </p>
+                                                <br>
+        
+                                        </div>
+                                </div>
+                        </div>
+<br>
+
+<center>
+        <h1 style="background-color:rgb(255, 89, 0);color:black;font-size: 40px;width: auto;">LEARN MORE
+        </h1>
+        <div style="display: flex;justify-content: space-evenly;">
+                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/f21db0bcfc.html" style="border: 0px; width: 373px; height: 600px;"></iframe>
+                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/85f1d2b838.html" style="border: 0px; width: 381px; height: 600px;"></iframe>
+                <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/e96e625955.html" style="border: 0px; width: 389px; height: 600px;"></iframe>
+        </div>
+                        <footer>
+
+                                <h3>Mohammad Hamza - 2024</h3>
+                                <a href="https://aiwithhamza.in">
+                                        <h3><i>aiwithhamza.in</i></h3>
+                                </a>
+                                <a href="copyright.html">
+                                        <h3><i>Copyrights</i></h3>
+                                </a>
+                        </footer>
+
+                        <div id="loader-overlay">
+                                <div class="loader"></div>
+                                <div id="loader-text">Loading...
+                                        <br>
+                                        <p style="color: rgb(255, 92, 92);font-size: 10px;">This Website Might Take Time To Load As It has a lot of High Quality Components</p>
+                                </div>
+                        </div>
+
+                        <script>
+                                // JavaScript for loader functionality
+                                document.onreadystatechange = function () {
+                                        if (document.readyState !== "complete") {
+                                                document.getElementById("loader-overlay").style.display = "block";
+                                        } else {
+                                                document.getElementById("loader-overlay").style.display = "none";
+                                        }
+                                };
+
+
+
+                                const cursor = document.querySelector("#cursor");
+
+                                document.addEventListener("mousemove", (e) => {
+                                        cursor.style.left = e.clientX + "px";
+                                        cursor.style.top = e.clientY + "px";
+                                });
+
+                        </script>
+
+</body>
+
+</html>
